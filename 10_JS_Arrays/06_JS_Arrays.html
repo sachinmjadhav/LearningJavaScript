@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Arrays</title>
+    <style>
+        h2 {
+            background-color: lightgreen;
+            text-align: center;
+            padding: 10px;
+        }
+        div {
+            background-color: seagreen;
+            text-align: center;
+            color: #fff;
+            padding: 5px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>JS Arrays Example</h2>
+
+    <div>
+        <h1 id="display"></h1>
+    </div><br>
+    <div>
+        <h1 id="display1"></h1>
+    </div>
+
+</body>
+
+<script>
+
+    var display = document.getElementById('display');
+    var display1 = document.getElementById('display1');
+    // creation of arrays
+    var myArray = [10, 20, 30, 40];
+
+
+
+    // Accessing an array and its properties
+    console.log(myArray[0]);    //10
+    console.log(myArray[3]);    //40
+    console.log(myArray[100]);  //undefined
+
+
+    // Access not existed property from an array
+    display.innerHTML = myArray[100];
+
+    // adding properties to an array
+    myArray[4] = 50;
+
+
+    // Accessing length of an Array
+    console.log(myArray.length);
+    var output = "Length of the array is " + myArray.length;
+    display.insertAdjacentHTML('beforeend', "<br><br>" +output);
+
+    // reverse the array using reverse()
+    myArray = [10, 20, 30, 40, 50];
+    display.insertAdjacentHTML('beforeend', "<br><br> Reverse: " + myArray.join(", "));
+
+    myArray.reverse();
+    display1.innerHTML = "Reverse: " + myArray.join(" ");
+
+
+    // Remove the first value of the array: shift()
+    myArray = [10, 20, 30, 40, 50];
+    display.insertAdjacentHTML('beforeend', "<br><br> Shift: " + myArray.join(", "));
+
+    myArray.shift();
+    display1.insertAdjacentHTML('beforeend', "<br><br> Shift: " + myArray.join(", "));
+
+
+
+    // Add value to front of the array:unshift()
+    myArray = [10, 20, 30, 40, 50];
+    display.insertAdjacentHTML('beforeend', "<br><br> Unshift: " + myArray.join(", "));
+
+    myArray.unshift(80);
+    display1.insertAdjacentHTML('beforeend', "<br><br>Unshift: " + myArray.join(", "));
+
+
+    // Remove the last value of the array: pop()
+    myArray = [10, 20, 30, 40, 50];
+    display.insertAdjacentHTML('beforeend', "<br><br>Pop: " + myArray.join(", "));
+
+    myArray.pop();
+    display1.insertAdjacentHTML('beforeend', "<br><br>Pop: " + myArray.join(", "));
+
+
+
+    // Add value the end of the array: push()
+    myArray = [10, 20, 30, 40, 50];
+    display.insertAdjacentHTML('beforeend', "<br><br>Push: " + myArray.join(", "));
+
+    myArray.push(90);
+    display1.insertAdjacentHTML('beforeend', "<br><br>Push: " + myArray.join(", "));
+
+
+    // Remove an element from an Array , Arguments: colors.splice(pos,n):
+    myArray = [10, 20, 30, 40, 50];
+    display.insertAdjacentHTML('beforeend', "<br><br> Splice: " + myArray.join(", "));
+
+    myArray.splice(2, 1);
+    display1.insertAdjacentHTML('beforeend', "<br><br> Splice: " + myArray.join(", "));
+
+
+    // Create a copy of an array. Typically assigned to a new variable:slice();
+    myArray = [10, 20, 30, 40, 50];
+    display.insertAdjacentHTML('beforeend', "<br><br> Slice: " + myArray.join(", "));
+
+    var myArray1 = myArray.slice();
+    display1.insertAdjacentHTML('beforeend', "<br><br> Slice: " + myArray1.join(", "));
+
+
+
+    // Return the first element that matches the search parameter
+    // after the specified index position. Defaults to index position 0. Arguments: colors.indexOf(search, index):
+    var result = myArray.indexOf(30, 0);
+    console.log(result);
+    display1.insertAdjacentHTML('beforeend', result);
+
+
+    // var result = colors.indexOf(search, index);
+    // console.log("The search result index is: ", result);
+
+    myArray = [10, 20, 30, 40, 50];
+    output = myArray.join(" ");
+    display1.insertAdjacentHTML('beforeend', "<br><br>Join: " + output);
+
+
+
+    // Return the items in an array as a comma separated string. The separator argument can be used to change the comma to something else. Arguments: colors.join(separator):
+    // var arrayString = colors.join(separator);
+    // console.log("String from array: ", arrayString);
+
+    // Prove an array is an Object
+    myArray = [10, 20, 30, 40, 50];
+    console.log(myArray["1"]);
+    myArray.test = 100;
+    console.log(myArray);
+
+    // MDN documentation for Array:
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+</script>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Conditional Statements</title>
+    <style>
+        h2 {
+            background-color: seagreen;
+            text-align: center;
+            padding: 10px;
+            color: white;
+        }
+        div {
+            background-color: lightgreen;
+            color: #333;
+            padding: 10px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Conditional Statements example</h2>
+
+    <div>
+        <h1 id="display"></h1>
+    </div>
+
+</body>
+
+<script>
+
+    // If condition Example (maximum of two values)
+    var a = 10;
+    var b = 20;
+    if(a > b) {
+        var output = "Max is " + a;
+        console.log();
+        document.getElementById('display').innerHTML = "Using IF statement: <br>" +output;
+    } else {
+        output = "Max is " + b;
+        console.log("Max is " + b);
+        document.getElementById('display').innerHTML = "Using IF statement: <br>" +output;
+    }
+
+
+
+    // If else condition Example (maximum of three values)
+    var a = 10;
+    var b = 20;
+    var c = 30;
+    if(a > b && a > c) {
+        output = "Max is " + a;
+        console.log(output);
+        document.getElementById('display').insertAdjacentHTML('beforeend', "<br><br> Using IF/ELSE statement: <br>"  + output);
+    } else if (b > c) {
+        output = "Max is " + b;
+        console.log(output);
+        document.getElementById('display').insertAdjacentHTML('beforeend', "<br><br> Using IF/ELSE statement: <br>" + output);
+    } else {
+        output = "Max is " + c;
+        console.log(output);
+        document.getElementById('display').insertAdjacentHTML('beforeend', "<br><br> Using IF/ELSE statement: <br>" + output);
+    }
+
+
+
+    // For loop Example
+
+
+
+    // While loop Example
+
+
+    // Do while loop Example
+
+
+    // Switch Statement Example
+
+
+</script>
+</html>

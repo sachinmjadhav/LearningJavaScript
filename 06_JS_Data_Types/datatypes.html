@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS DataTypes</title>
+    <style>
+        h1 {
+            background-color: lightgreen;
+            text-align: center;
+            padding: 5px;
+        }
+        div {
+            background-color: seagreen;
+            text-align: center;
+            color: #fff;
+            padding: 3px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>JS DataTypes Example:</h1>
+    <div>
+        <h2 id="display"></h2>
+    </div>
+
+
+</body>
+
+<script>
+
+    // number example
+    var num1 = 50;
+    output = "Number : " + num1;
+    document.getElementById('display').innerHTML = output;
+    console.log(output);
+
+
+    // String Examples
+    var n = "Sachin";
+    var name = "String : " + n;
+    document.getElementById("display").insertAdjacentHTML('beforeend', "<br><br>" + name);
+    console.log(name);
+
+
+    // boolean Examples
+    var isJSEasy = true;
+    var r = " Boolean : " + isJSEasy;
+    document.getElementById("display").insertAdjacentHTML('beforeend', "<br><br>" + r);
+    console.log(r);
+
+
+    // reassignment example of variables
+    var a = 6;
+    a = 3;
+    var value1 = "Reassigned value of a from 6 to : "  + a;
+    document.getElementById("display").insertAdjacentHTML('beforeend', "<br><br>" + value1);
+    console.log(value1);
+
+
+    // Undefined Example
+    var something;
+    var res = " Something value is : " + something;
+    document.getElementById("display").insertAdjacentHTML('beforeend', "<br><br>" + res);
+    console.log(res);
+
+
+    // null example
+    var middleName = null;
+    var as = " Middle Name : " + middleName;
+    document.getElementById("display").insertAdjacentHTML('beforeend', "<br><br>" + as);
+    console.log(as);
+
+
+    // Array Example
+    var myArray = [10, 20, 30, 40];
+    var az = "Array Example : " + myArray;
+    document.getElementById("display").insertAdjacentHTML('beforeend', "<br><br>" + az);
+    console.log(myArray);
+
+</script>
+
+</html>

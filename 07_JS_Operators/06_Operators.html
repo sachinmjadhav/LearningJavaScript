@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Operators</title>
+    <style>
+        h1 {
+            background-color: seagreen;
+            text-align: center;
+            padding: 5px;
+        }
+        div {
+            background-color: lightgreen;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+
+    <h1>JS Operators Example</h1>
+    <div>
+        <h2 id="assignment"></h2>
+    </div><br>
+    <div>
+        <h2 id="arithmetic"></h2>
+    </div><br>
+    <div>
+        <h2 id="shortHand"></h2>
+    </div><br>
+    <div>
+        <h2 id="conditional"></h2>
+    </div><br>
+    <div>
+        <h2 id="unary"></h2>
+    </div><br>
+    <div>
+        <h2 id="logical"></h2>
+    </div><br>
+    <div>
+        <h2 id="stringConcat"></h2>
+    </div><br>
+    <div>
+        <h2 id="ternary"></h2>
+    </div><br>
+    <div>
+        <h2 id="typeOf"></h2>
+    </div><br>
+
+
+</body>
+<script>
+
+    // Assignment operator =
+    var num1 = 40;
+    console.log(num1);
+    document.getElementById("assignment").innerHTML = "Assignment operator: num = " +num1;
+
+    // Arithmetic operators + - * /
+    var a = 10;
+    var b = 20;
+    var sum = a + b;
+    console.log(sum);
+
+
+
+    // Short hand math += , -= , *= , /=
+    var a = 20;
+    var b = 30;
+    var sum1 = 10;
+    sum1 = sum1 + (a + b); //long way
+    sum1 += (a + b);        // short hand math
+    console.log(sum1);
+
+
+    // Conditional operators < , > , <= , >= , !=
+    var age = 29;
+    var married = false;
+    if(age >= 30 && !married) {
+        console.log("Pray to God");
+    } else {
+        console.log("Get a job");
+    }
+
+
+    // Unary Operator ++ , -- (pre , post)
+    var a = 10;
+    a = a + 1;  //increment by 1
+    a += 1;     //increment by 1
+    a++;        //increment by 1
+    console.log(a);
+
+
+
+    // Logical operators AND , OR
+    var courseCompleted = true;
+    var getJob = true;
+
+    if(courseCompleted && !getJob) {
+        console.log("Get Married");
+    } else {
+        console.log("Get a Job");
+    }
+
+
+    // String Concatenation Operator
+    var num3 = 10;
+    var num2 = "23";
+    console.log(num3 + num2);
+
+
+    // Ternary operator (? :)
+    var a = 20;
+    var b = 30;
+    var bigVal = 0;
+    (a > b)? (bigVal = a) : (bigVal = b);
+    console.log(bigVal);
+
+
+    // Type of operator
+    var dept;
+    console.log(typeof (dept));
+
+    var dept = 10;
+    console.log(typeof (dept));
+
+    var dept = "Engg";
+    console.log(typeof (dept));
+
+    var dept = true;
+    console.log(typeof (dept));
+
+    var dept = null;
+    console.log(typeof (dept));
+
+
+
+    // == operator
+    var num1 = 50;
+    var str = "50";
+    if (num1 == str) {
+        console.log("Both are equal");
+    } else {
+        console.log("Both are not equal");
+    }
+
+
+    // === operator
+    var num1 = 50;
+    var str = "50";
+    if (num1 === str) {
+        console.log("Both are equal");
+    } else {
+        console.log("Both are not equal");
+    }
+
+
+
+
+</script>
+</html>

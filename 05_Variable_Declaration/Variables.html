@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Variable Declaration</title>
+    <style>
+        h1 {
+            background-color: lightgreen;
+            text-align: center;
+            padding: 5px;
+        }
+        div {
+            background-color: seagreen;
+            text-align: center;
+            color: #fff;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Varaible Declaration Example:</h1>
+    <div>
+        <h2 id="display"></h2>
+    </div>
+
+
+</body>
+
+<script>
+
+    //create two variables and display the sum
+    // function Add(a, b) {
+    //     var sum = a + b;
+    //     console.log(sum);
+    // }
+    // Add(2, 3);
+
+    var a = 10;
+    var b = 15;
+    var sum = a + b;
+    var output = "The sum of " + a + " and " + b + " = " + sum;
+    document.getElementById('display').innerHTML = output;
+
+
+
+
+    // find the biggest value among 3 numbers
+    // function biggest(a, b, c) {
+    //     var big;
+    //     if (a > b && a > c) {
+    //         big = a;
+    //     }else if (c > a && c > b) {
+    //         big = c;
+    //     } else {
+    //         big = b;
+    //     }
+    //     console.log("Biggest of " + a +", " + b + ", " + c + ", " + "=" + " " + big);
+    // }
+    //
+    // biggest(34, 43, 10);
+
+    var x = 20;
+    var y = 40;
+    var z = 30;
+    if (x > y && x > z) {
+            big = x;
+        } else if (z > x && z > y) {
+            big = z;
+        } else {
+            big = y;
+        }
+
+    var biggest = "Biggest number of " + x + ", " + y + ", "+ " and " + z + " is = " + big;
+    document.getElementById("display").insertAdjacentHTML('beforeend', "<br><br>" + biggest);
+
+
+</script>
+</html>
