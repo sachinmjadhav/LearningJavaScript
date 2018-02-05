@@ -2,51 +2,163 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>JS Functions</title>
+    <style>
+        h2 {
+            background-color: lightgreen;
+            padding: 5px;
+            text-align: center;
+        }
+        div {
+            background-color: seagreen;
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+            font-size: 15px;
+        }
+    </style>
 </head>
 <body>
+
+    <h2>JS Functions Example</h2>
+
+    <div>
+        <h1 id="display"></h1>
+    </div>
 
 </body>
 
 <script>
+    var display = document.getElementById('display');
+
     //creation of a simple function with no args and execute a function
+    function greet() {
+        var output = "Good Evening" + "<br>";
+        console.log(output);
+        display.innerHTML = output;
+    }
+    greet();
 
 
     //creation of a simple function with args
+    function greetArgs(name) {
+        var output = "Good Evening " + name + "<br>";
+        console.log(output);
+        display.insertAdjacentHTML('beforeend', output);
+    }
+    greetArgs('Bob');
+
 
 
     // executing a function with less number of params
+    function lessArgs(name, age) {
+        var output =  "Your name is " + name + " and age is " + age + "<br>";
+        console.log(output);
+        display.insertAdjacentHTML('beforeend', output);
+    }
+    lessArgs("Dave", 30);
+    lessArgs("John");
 
 
     //executing a function with more number of params
+    function moreArgs(name, age) {
+        var output =  "Your name is " + name + " and age is " + age + "<br>";
+        console.log(output);
+        display.insertAdjacentHTML('beforeend', output);
+    }
+    moreArgs("Josh", 20, 3434);
+    //function overloading is not possible in JavaScript
 
-
-    //function overloading is not possible here
 
 
     // functions with return values
+    function greetReturn(name) {
+        var output = "Good Evening " + name;
+        return output;
+    }
+    console.log(greetReturn("Bob"));
+    display.insertAdjacentHTML('beforeend', greetReturn("Bob"));
 
 
     //function with empty return /no return
+    function greetReturn(name) {
+        var output = "Good Evening " + name;
+        return;         //empty return
+    }
+    console.log(greetReturn("Bob"));
+    display.insertAdjacentHTML('beforeend', greetReturn("Bob"));
+
 
 
     // function Expressions with name and execution
+    var greetMe = function greet() {
+        var output = "<br>Good Evening";
+        console.log(output);
+        display.insertAdjacentHTML('beforeend', output);
+    };
+    greetMe();
+
 
 
     // Anonymous Function Expression and execution
+    var greetMe = function () {
+        var output = "<br>Good Afternoon";
+        console.log(output);
+        display.insertAdjacentHTML('beforeend', output);
+    };
+    greetMe();
+
+    //Anonymous Functions with Arguments
+    var greetMe = function (name) {
+        var output = "<br>Good Afternoon " + name + "<br>";
+        console.log(output);
+        display.insertAdjacentHTML('beforeend', output);
+    };
+    greetMe("Bob");
+
 
 
     // Functions as arguments without args
-
+    var greeting = function (greet) {
+        output = greet() + "<br>";
+        console.log(hi());
+        display.insertAdjacentHTML('beforeend', output);
+    };
+    function hi() {
+        return "Hello";
+    }
+    greeting(hi);
 
 
     // Functions as arguments with args args
+    var greeting = function (greet, name){
+        output = greet(name) + "<br>";
+        console.log(hi);
+        display.insertAdjacentHTML('beforeend', output);
+    };
+    function hi(name) {
+        return "Hello " + name;
+    }
+    greeting(hi, "Bob");
+
 
 
     // Functions in Objects and Execution
+    var employee = {
+        firstName : "John",
+        lastName : "Dave",
+        fullName : function () {
+                    return this.firstName + " " + this.lastName;
+                    }
+    };
+    console.log(employee.fullName());
+    display.insertAdjacentHTML('beforeend', employee.fullName());
+
 
 
     // this keyword for accessing objects props in function
+
+
 
 
     // Coding Exercise 1

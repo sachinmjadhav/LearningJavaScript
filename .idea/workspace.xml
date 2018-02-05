@@ -14,51 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="11_JS_Functions.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="11_JS_Functions.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/11_JS_Functions/11_JS_Functions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+            <state relative-caret-position="288">
+              <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="13_JS_DOM_Manipulation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13_JS_DOM_Manipulation/13_JS_DOM_Manipulation.html">
+      <file leaf-file-name="basics.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01_Basics_JS/basics.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="14_JS_Scopes_Concepts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/14_JS_Scopes_Concept/14_JS_Scopes_Concepts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="15_JS_Compilation_Interpretation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/15_JS_Compilation_Interpretation/15_JS_Compilation_Interpretation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="126" column="7" lean-forward="true" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="16_JS_Closures.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/16_JS_Closures/16_JS_Closures.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="145" column="25" lean-forward="true" selection-start-line="145" selection-start-column="25" selection-end-line="145" selection-end-column="25" />
+            <state relative-caret-position="373">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,9 +47,10 @@
         <option value="$PROJECT_DIR$/06_JS_Data_Types/datatypes.html" />
         <option value="$PROJECT_DIR$/05_Variable_Declaration/Variables.html" />
         <option value="$PROJECT_DIR$/08_JS_Conditional_Statements/08_Conditional_Statements.html" />
-        <option value="$PROJECT_DIR$/01_Basics_JS/basics.html" />
         <option value="$PROJECT_DIR$/09_JS_Objects/09_JS_Objects.html" />
         <option value="$PROJECT_DIR$/10_JS_Arrays/06_JS_Arrays.html" />
+        <option value="$PROJECT_DIR$/01_Basics_JS/basics.html" />
+        <option value="$PROJECT_DIR$/11_JS_Functions/11_JS_Functions.html" />
       </list>
     </option>
   </component>
@@ -90,9 +61,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -109,7 +81,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,43 +92,13 @@
             <path>
               <item name="JS_Completed_Template" type="b2602c69:ProjectViewProjectNode" />
               <item name="JS_Completed_Template" type="462c0819:PsiDirectoryNode" />
-              <item name="01_Basics_JS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS_Completed_Template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS_Completed_Template" type="462c0819:PsiDirectoryNode" />
-              <item name="05_Variable_Declaration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS_Completed_Template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS_Completed_Template" type="462c0819:PsiDirectoryNode" />
               <item name="11_JS_Functions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS_Completed_Template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS_Completed_Template" type="462c0819:PsiDirectoryNode" />
-              <item name="13_JS_DOM_Manipulation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS_Completed_Template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS_Completed_Template" type="462c0819:PsiDirectoryNode" />
-              <item name="14_JS_Scopes_Concept" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS_Completed_Template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS_Completed_Template" type="462c0819:PsiDirectoryNode" />
-              <item name="15_JS_Compilation_Interpretation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JS_Completed_Template" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS_Completed_Template" type="462c0819:PsiDirectoryNode" />
-              <item name="16_JS_Closures" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,25 +152,25 @@
       <workItem from="1517487830139" duration="5184000" />
       <workItem from="1517638109735" duration="2819000" />
       <workItem from="1517660690408" duration="5037000" />
-      <workItem from="1517734948327" duration="1278000" />
+      <workItem from="1517734948327" duration="1819000" />
+      <workItem from="1517833600166" duration="5473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31217000" />
+    <option name="totallyTimeSpent" value="37231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14955357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24482338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3223684" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32554257" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -251,6 +193,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/15_JS_Compilation_Interpretation/15_JS_Compilation_Interpretation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="126" column="7" lean-forward="true" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16_JS_Closures/16_JS_Closures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="25" lean-forward="true" selection-start-line="145" selection-start-column="25" selection-end-line="145" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/11_JS_Functions/11_JS_Functions.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -532,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_Basics_JS/basics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/09_JS_Objects/09_JS_Objects.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -560,17 +511,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11_JS_Functions/11_JS_Functions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/13_JS_DOM_Manipulation/13_JS_DOM_Manipulation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
+        <state relative-caret-position="544">
           <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
           <folding />
         </state>
@@ -578,24 +521,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/14_JS_Scopes_Concept/14_JS_Scopes_Concepts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state relative-caret-position="1462">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/15_JS_Compilation_Interpretation/15_JS_Compilation_Interpretation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="126" column="7" lean-forward="true" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
+        <state relative-caret-position="2142">
+          <caret line="126" column="7" lean-forward="false" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/16_JS_Closures/16_JS_Closures.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="145" column="25" lean-forward="true" selection-start-line="145" selection-start-column="25" selection-end-line="145" selection-end-column="25" />
+        <state relative-caret-position="356">
+          <caret line="154" column="23" lean-forward="false" selection-start-line="154" selection-start-column="23" selection-end-line="154" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_Basics_JS/basics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11_JS_Functions/11_JS_Functions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
           <folding />
         </state>
       </provider>
