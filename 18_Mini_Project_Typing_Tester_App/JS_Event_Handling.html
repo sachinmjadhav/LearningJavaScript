@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Event Handling</title>
+</head>
+<body>
+
+    <button type="button" id="myBtn">Submit</button>
+    <input type="text" id="myTxt">
+
+</body>
+<script>
+    var btn = document.querySelector('#myBtn');
+    var txt = document.querySelector('#myTxt');
+    btn.addEventListener('click', reset);
+
+    function reset() {
+        console.log("Button Clicked");
+    }
+
+    txt.addEventListener('keyup', start);
+
+    function start() {
+        console.log(txt.value);
+    }
+
+</script>
+</html>
